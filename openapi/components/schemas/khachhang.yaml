@@ -1,0 +1,103 @@
+type: object
+properties:
+  ID:
+    type: string
+    format: uuid
+    readOnly: true
+  LoaiDoiTuong:
+    type: integer
+  MaDoiTuong:
+    type: string
+  TenDoiTuong:
+    type: string
+  LaCaNhan:
+    type: boolean
+  GioiTinhNam:
+    type: boolean
+  NgaySinh_NgayTLap:
+    type: 'null'
+  DinhDang_NgaySinh:
+    type: string
+  Email:
+    type: string
+  DiaChi:
+    type: string
+  DienThoai:
+    type: string
+  ID_TinhThanh:
+    type: 'null'
+  ID_QuanHuyen:
+    type: 'null'
+  ID_NguonKhach:
+    type: 'null'
+  ID_TrangThai:
+    type: 'null'
+  ID_NguoiGioiThieu:
+    type: string
+    format: uuid
+  ID_NhanVienPhuTrach:
+    type: string
+    format: uuid
+  IDNhomKhachs:
+    type: string
+    format: uuid
+  ListIDNhomKhach:
+    type: array
+    items:
+      type: string
+      format: uuid
+  TheoDoi:
+    type: boolean
+  ChiaSe:
+    type: boolean
+  ID_Index:
+    type: integer
+  MaSoThue:
+    type: string
+  TongBanTruTraHang:
+    type: integer
+  TongBan:
+    type: integer
+  TongMua:
+    type: integer
+  TongTichDiem:
+    type: integer
+  SoLanMuaHang:
+    type: integer
+  NoHienTai:
+    type: integer
+  NgayGiaoDichGanNhat:
+    type: 'null'
+  NgayTao:
+    type: string
+    format: date-time
+  NguoiTao:
+    type: string
+  GhiChu:
+    type: string
+  TaiKhoanNganHang:
+    type: string
+  TenNguoiGioiThieu:
+    type: string
+  TenTrangThai:
+    type: string
+  TenNhomKhachs:
+    type: string
+  TenNguonKhach:
+    type: string
+  TenNhanVienPhuTrach:
+    type: string
+  TenTinhThanh:
+    type: string
+  TenQuanHuyen:
+    type: string
+  ID_NhomDoiTuong:
+    type: 'null'
+  TenDoiTuong_ChuCaiDau:
+    type: string
+  TenDoiTuong_KhongDau:
+    type: string
+  ID_DonVi:
+    type: string
+    format: uuid
+additionalProperties: false
