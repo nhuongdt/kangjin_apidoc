@@ -1,0 +1,12 @@
+post:
+tags:
+- DM_DoiTuong
+summary: thêm mới khách hàng
+operationId: PostDM_DoiTuong
+requestBody: 
+$ref: ../components/requestBodies/KhachHang.yaml
+responses:
+
+
+
+
